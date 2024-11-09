@@ -17,7 +17,7 @@ const Header = () => {
             <Image src={Logo} alt="Logo" width={100} height={70} />
             {/* <span className="ml-3 text-xl">Danish Abbasi</span> */}
           </a>
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-lg text-gray-300">
+          <nav className="md:ml-auto flex flex-wrap items-center text-lg justify-center text-gray-300">
             <Link href={"/"}  className="mr-5 hover:text-[#cb6ce6]">Home</Link >
             <Link href={"#about"}  className="mr-5 hover:text-[#cb6ce6]">About</Link >
             <Link href={"#skills"}  className="mr-5 hover:text-[#cb6ce6]">Skills</Link >
