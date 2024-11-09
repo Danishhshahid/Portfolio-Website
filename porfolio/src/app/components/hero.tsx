@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import Logo from "../../../public/assets/pic.png";
-import Typewriter from "typewriter-effect";
+import { Typewriter } from 'react-simple-typewriter';
 import { IoIosCloudDownload } from "react-icons/io";
 import Link from "next/link";
 const Hero = () => {
@@ -15,18 +15,21 @@ const Hero = () => {
               It&#39;s Danish Abbasi
               <br className="hidden lg:inline-block" />
               <Typewriter
-                options={{
-                  strings: [
-                    "Fintech Enthusiast",
-                    "Future Ai Engineer",
-                    "Frontend Developer",
-                    "GIAIC Student",
-                    "Agentic Ai visionary",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
+              words={[
+                "Fintech Enthusiast",
+                "Future AI Engineer",
+                "Frontend Developer",
+                "GIAIC Student",
+                "Agentic AI Visionary",
+              ]}
+              loop
+              cursor
+              cursorColor="#cb6ce6"
+              typeSpeed={100}
+              deleteSpeed={50}
+              delaySpeed={1000}
+              
+            />
             </h1>
 
             <div className="w-[100%] h-[2px] bg-[#cb6ce6] "></div>
