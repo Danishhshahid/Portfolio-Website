@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-              It's Danish Abbasi
+              It&#39;s Danish Abbasi
               <br className="hidden lg:inline-block" />
               <Typewriter
                 options={{
@@ -31,11 +31,11 @@ const Hero = () => {
 
             <div className="w-[100%] h-[2px] bg-[#cb6ce6] "></div>
             <p className="mb-8 leading-relaxed text-gray-300 w-[100%]">
-              I'm passionate about the intersection of finance, technology, and
+              I&#39;m passionate about the intersection of finance, technology, and
               innovation. My goal is to dive deeply into AI and blockchain,
               exploring new frontiers in these fields. I aim to create an AI
               agent that embodies cutting-edge advancements, pushing the
-              boundaries of what's possible in intelligent technology.
+              boundaries of what&#39;s possible in intelligent technology.
             </p>
             <div className="flex justify-center">
               <Link href={"#contact"}>

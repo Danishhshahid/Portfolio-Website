@@ -1,4 +1,3 @@
-"use client"
 import Image from "next/image";
 import React from "react";
 import Logo from "../../../public/assets/p1.png";
@@ -40,8 +39,8 @@ const Project = () => {
                     Simple Countdown Timer
                   </h1>
                   <p className="leading-relaxed">
-                    "Countdown Timer built with Next.js, offering a sleek and
-                    responsive design for seamless time tracking."
+                    Countdown Timer built with Next.js, offering a sleek and
+                    responsive design for seamless time tracking.
                   </p>
                   <Link href={""}>
                     <button className="inline-flex text-white bg-[#cb6ce6] border-0 py-2 px-6 focus:outline-none hover:bg-purple-900 rounded-lg text-lg">
@@ -66,9 +65,9 @@ const Project = () => {
                     Weather Widget app
                   </h1>
                   <p className="leading-relaxed">
-                    "Weather Widget App built with Next.js, providing real-time,
+                    Weather Widget App built with Next.js, providing real-time,
                     accurate forecasts with an intuitive and user-friendly
-                    interface."
+                    interface.
                   </p>
                   <Link href={""}>
                     <button className="inline-flex text-white bg-[#cb6ce6] border-0 py-2 px-6 focus:outline-none hover:bg-purple-900 rounded-lg text-lg">
@@ -93,8 +92,8 @@ const Project = () => {
                     The Resume Builder app
                   </h1>
                   <p className="leading-relaxed">
-                    "Resume Builder App designed with Next.js, enabling users to
-                    create professional, customizable resumes effortlessly."
+                    Resume Builder App designed with Next.js, enabling users to
+                    create professional, customizable resumes effortlessly.
                   </p>
                   <Link href={""}>
                     <button className="inline-flex text-white bg-[#cb6ce6] border-0 py-2 px-6 focus:outline-none hover:bg-purple-900 rounded-lg text-lg">
@@ -119,8 +118,8 @@ const Project = () => {
                     CLI Adventure game
                   </h1>
                   <p className="leading-relaxed">
-                    "CLI Adventure Game created with Next.js, offering an
-                    immersive text-based experience full of challenges and fun!"
+                    CLI Adventure Game created with Next.js, offering an
+                    immersive text-based experience full of challenges and fun!
                   </p>
                   <Link href={""}>
                     <button className="inline-flex text-white bg-[#cb6ce6] border-0 py-2 px-6 focus:outline-none hover:bg-purple-900 rounded-lg text-lg">
@@ -145,9 +144,9 @@ const Project = () => {
                     CLI simple Calculator
                   </h1>
                   <p className="leading-relaxed">
-                    "CLI Simple Calculator built with Next.js, offering a
+                    CLI Simple Calculator built with Next.js, offering a
                     straightforward and efficient way to perform basic
-                    calculations."
+                    calculations.
                   </p>
                   <Link href={""}>
                     <button className="inline-flex text-white bg-[#cb6ce6] border-0 py-2 px-6 focus:outline-none hover:bg-purple-900 rounded-lg text-lg">
@@ -172,8 +171,8 @@ const Project = () => {
                     CLI Todo-list
                   </h1>
                   <p className="leading-relaxed">
-                    "CLI To-Do List app built with Next.js, providing a simple
-                    and effective way to manage tasks from the command line."
+                    CLI To-Do List app built with Next.js, providing a simple
+                    and effective way to manage tasks from the command line.
                   </p>
                   <Link href={""}>
                     <button className="inline-flex text-white bg-[#cb6ce6] border-0 py-2 px-6 focus:outline-none hover:bg-purple-900 rounded-lg text-lg">

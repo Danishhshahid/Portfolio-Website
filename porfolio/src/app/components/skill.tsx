@@ -1,5 +1,4 @@
-"use client"
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa6";
@@ -21,7 +20,7 @@ const Skill = () => {
               MY SKILLS
             </h1>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-300">
-            "Proficient in modern programming languages and frameworks, with a strong focus on building innovative, efficient solutions. Continuously enhancing my skills to stay ahead in the fast-evolving tech landscape."
+            Proficient in modern programming languages and frameworks, with a strong focus on building innovative, efficient solutions. Continuously enhancing my skills to stay ahead in the fast-evolving tech landscape.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -33,7 +32,7 @@ const Skill = () => {
                 <h2 className="text-lg text-gray-300 font-medium title-font mb-2">
                   Next JS
                 </h2>
-                <p className="leading-relaxed text-base">
+                <div className="leading-relaxed text-base">
                   <div className="flex-grow">
                     <div className=" relative h-1 w-full bg-gray-200 rounded">
                         <div className="absolute bg-[#cb6ce6] h-1 w-[50%] "></div>
@@ -41,7 +40,7 @@ const Skill = () => {
                     <p className="font-bold text-[#cb6ce6] text-right">50%</p>
 
                   </div>
-                </p>
+                </div>
               </div>
             </div>
             <div className="xl:w-1/3  w-[100%] md:w-1/2 p-4">
@@ -52,7 +51,7 @@ const Skill = () => {
                 <h2 className="text-lg text-gray-300 font-medium title-font mb-2">
                   HTML5
                 </h2>
-                <p className="leading-relaxed text-base">
+                <div className="leading-relaxed text-base">
                   <div className="flex-grow">
                     <div className=" relative h-1 w-full bg-gray-200 rounded">
                         <div className="absolute bg-[#cb6ce6] h-1 w-[100%] "></div>
@@ -60,7 +59,7 @@ const Skill = () => {
                     <p className="font-bold text-[#cb6ce6] text-right">100%</p>
 
                   </div>
-                </p>
+                </div>
               </div>
             </div>
             <div className="xl:w-1/3  w-[100%] md:w-1/2 p-4">
@@ -71,7 +70,7 @@ const Skill = () => {
                 <h2 className="text-lg text-gray-300 font-medium title-font mb-2">
                   Tailwind CSS
                 </h2>
-                <p className="leading-relaxed text-base">
+                <div className="leading-relaxed text-base">
                   <div className="flex-grow">
                     <div className=" relative h-1 w-full bg-gray-200 rounded">
                         <div className="absolute bg-[#cb6ce6] h-1 w-[95%] "></div>
@@ -79,7 +78,7 @@ const Skill = () => {
                     <p className="font-bold text-[#cb6ce6] text-right">95%</p>
 
                   </div>
-                </p>
+                </div>
               </div>
             </div>
             <div className="xl:w-1/3  w-[100%] md:w-1/2 p-4">
@@ -90,7 +89,7 @@ const Skill = () => {
                 <h2 className="text-lg text-gray-300 font-medium title-font mb-2">
                   Typescript
                 </h2>
-                <p className="leading-relaxed text-base">
+                <div className="leading-relaxed text-base">
                   <div className="flex-grow">
                     <div className=" relative h-1 w-full bg-gray-200 rounded">
                         <div className="absolute bg-[#cb6ce6] h-1 w-[80%] "></div>
@@ -98,7 +97,7 @@ const Skill = () => {
                     <p className="font-bold text-[#cb6ce6] text-right">80%</p>
 
                   </div>
-                </p>
+                </div>
               </div>
             </div>
             <div className="xl:w-1/3 w-[100%]  md:w-1/2 p-4">
@@ -109,7 +108,7 @@ const Skill = () => {
                 <h2 className="text-lg text-gray-300 font-medium title-font mb-2">
                   Python
                 </h2>
-                <p className="leading-relaxed text-base">
+                <div className="leading-relaxed text-base">
                   <div className="flex-grow">
                     <div className=" relative h-1 w-full bg-gray-200 rounded">
                         <div className="absolute bg-[#cb6ce6] h-1 w-[40%] "></div>
@@ -117,7 +116,7 @@ const Skill = () => {
                     <p className="font-bold text-[#cb6ce6] text-right">40%</p>
 
                   </div>
-                </p>
+                </div>
               </div>
             </div>
             <div className="xl:w-1/3  w-[100%] md:w-1/2 p-4">
@@ -128,7 +127,7 @@ const Skill = () => {
                 <h2 className="text-lg text-gray-300 font-medium title-font mb-2">
                   Figma
                 </h2>
-                <p className="leading-relaxed text-base">
+                <div className="leading-relaxed text-base">
                   <div className="flex-grow">
                     <div className=" relative h-1 w-full bg-gray-200 rounded">
                         <div className="absolute bg-[#cb6ce6] h-1 w-[70%] "></div>
@@ -136,7 +135,7 @@ const Skill = () => {
                     <p className="font-bold text-[#cb6ce6] text-right">70%</p>
 
                   </div>
-                </p>
+                </div>
               </div>
             </div>
           </div>
